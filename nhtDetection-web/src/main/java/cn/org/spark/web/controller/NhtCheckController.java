@@ -1,6 +1,7 @@
 package cn.org.spark.web.controller;
 
 import cn.org.spark.biz.service.NhtCheckService;
+import cn.org.sprk.biz.result.CheckIPv4Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +17,8 @@ public class NhtCheckController {
     @Autowired
     private NhtCheckService nhtCheckService;
 
-    //@GetMapping("checkIpV4Str")
-    @RequestMapping(value = "checkIpV4Str", produces = "application/json;charset=UTF-8")
-    public String checkIpV4Str(String ipV4Str) {
+    @RequestMapping(value = "checkIpV4Str")
+    public CheckIPv4Result checkIpV4Str(String ipV4Str) {
         return nhtCheckService.checkIpV4Str(ipV4Str);
     }
 }
