@@ -5,7 +5,7 @@ This is a Spring Boot project, aiming to create a service which can detect the t
 * git clone this project
 * using a Java develop IDE to import this project
 * in IDE, run nhtDetection-web\src\main\java\cn\org\spark\web\NhtDectionWebApplication.java 
-* open a browser, goto http://yourIPorHostName:YourPort/NhtCheck/checkIpV4Str?ipV4Str=112.80.35.2 (i.e: http://localhost:8080/NhtCheck/checkIpV4Str?ipV4Str=192.168.0.2)
+* open a browser, goto http://yourIPorHostName:YourPort/NhtCheck/checkIpV4Str?ipV4Str=114.114.114.114 (i.e: http://localhost:8080/NhtCheck/checkIpV4Str?ipV4Str=192.168.0.2)
 * if response like:
 >{
     "ipv4Str": "192.168.0.2",
