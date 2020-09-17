@@ -14,5 +14,5 @@ This is a Spring Boot project, aiming to create a service which can detect the t
 }
 * Enjoy :)
 ## Core Data Source
-This project will using a api product by RTBasia.com, for more information, please check: https://ip.rtbasia.com/
+This project will using an API product by RTBasia.com, for more information, please check: https://ip.rtbasia.com/
  
